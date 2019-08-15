@@ -284,8 +284,207 @@
 }
 
 @media screen and (max-width: 769px) {
-    
+    .social {
+        display: none;
+    }
 
+    .menu {
+        display: none;
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        padding: 40px 15px;
+        top: 0;
+        margin: auto;
+    }
+
+    .menu-item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .header-content__top {
+        justify-content: space-between;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .footer-menu {
+        height: 20px;
+    }
+
+    .footer-menu__item {
+        display: none;
+    }
+
+    .slider-content h1 {
+        font-size: 55px;
+        line-height: 63px;
+        margin-bottom: 20px;
+    }
+
+    .slider-content__text {
+        width: 340px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .slider-content {
+        max-width: 740px;
+        min-width: 740px;
+    }
+
+    .reservation-content {
+        max-width: 350px;
+        padding: 20px 20px;
+    }
+
+    .reservation__text {
+        font-size: 20px;
+    }
+
+    .reservation__text span {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .form input {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .btn {
+        font-size: 12px;
+        height: 46px;
+    }
+
+    .time span {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .reservation {
+        max-width: 740px;
+    }
+
+    .slider-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-item img {
+        width: 200%;
+    }
+
+    .skills-content h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .skills-content__text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .skills-content__item span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .skills-content {
+        max-width: 740px;
+    }
+
+    .slogan {
+        height: 90px;
+    }
+
+    .period-time {
+        font-size: 20px;
+    }
+
+    .slogan__text {
+        font-size: 30px;
+    }
+
+    .period-item {
+        max-width: 230px;
+    } 
+
+    .period-title {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 90%;
+    }
+
+    .period-text {
+        font-size: 12px;
+        max-width: 90%;
+        margin: 0 auto 20px;
+    }
+
+    .period-list {
+        max-width: 740px;
+        margin: 30px auto;
+    }
+
+    .reviews-item:nth-child(1) {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .reviews-item:nth-child(2) {
+        margin-top: -30px;
+    }
+
+    .reviews-list img {
+        max-width: 200px;
+    }
+
+    .container {
+        max-width: 740px;
+    }
+
+    .contacts-item__title {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .contacts-item__text {
+        font-size: 12px;
+        max-width: 220px;
+        line-height: 16px;
+    }
+
+    .contacts-item {
+        max-width: 320px;
+    }
+
+    .contacts-content__right {
+        max-height: 64.5%;
+        min-width: 55%;
+    }
+
+    .contacts-list {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        margin-right: 0;
+        font-size: 13px;
+        line-height: 16px;
+        max-width: 180px;
+    }    
 }
 
 @media screen and (max-width: 720px) {
@@ -293,8 +492,153 @@
 }
 
 @media screen and (max-width: 660px) {
-    
-    
+    .header-top__email {
+        display: none;
+    }    
+
+    .close-menu img {
+        width: 25px;
+    }
+
+    .slider-content h1 {
+        font-size: 34px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .slider-content {
+        max-width: 90%;
+        min-width: 90%;
+        top: 100px;
+    }
+
+    .reservation {
+        position: relative;
+        top: auto;
+        padding: 20px 0;
+        right: auto;
+    }
+
+    .reservation-content {
+        max-width: 100%;
+        padding: 20px 20px;
+        margin: auto;
+        border-radius: 0;
+    }
+
+    .skills-content {
+        display: block;
+        max-width: 90%;
+    }
+
+    .skills-content__right {
+        display: none;
+    }
+
+    .skills-content h2 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+
+    .skills-content__title {
+        padding-bottom: 15px;
+    }
+
+    .slogan__text {
+        font-size: 26px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .period-list {
+        display: block;
+        max-width: 90%;
+    }
+
+    .period-item {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .reviews-content {
+        display: block;
+    }
+
+    .reviews-content__title h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .reviews-list img {
+        max-width: 150px;
+    }
+
+    .reviews-list {
+        min-height: 100px;
+        justify-content: space-around;
+    }
+
+    .reviews-item:nth-child(1) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .reviews-item:nth-child(2) img {
+        max-width: 100px;
+    }
+
+    .reviews-item:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .reviews-content__title {
+        padding-left: 0;
+        height: 80px;
+    }
+
+    .contacts-content {
+        display: block;
+    }
+
+    .contacts {
+        padding-top: 0;
+    }
+
+    .contacts-content__title h3 {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .contacts-item {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .contacts-content__right {
+        max-width: 100%;
+        max-height: 60%;
+        position: relative;
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .regulations {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .studio {
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {

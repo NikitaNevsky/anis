@@ -392,6 +392,26 @@ input:focus {
     transform: scale(1);
 }
 
+.menu-mobile {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-mobile img {
+    width: 30px;
+}
+
+.close-menu {
+    display: none;
+    z-index: 10;
+    text-align: right;
+    cursor: pointer;
+}
+
+.close-menu img {
+    width: 30px;
+}
+
 .social {
     display: flex;
     align-items: center;
